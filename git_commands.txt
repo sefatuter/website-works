@@ -1,0 +1,17 @@
+---- Git Commands ----
+
+git config --global user.name "sefa"
+git config --global user.email "abc@hotmail.com"
+git config --global push.default matching
+git config --global alias.co checkout
+git init
+
+-> After that create a repository in GitHub
+
+git add .
+git commit -am 'commit'
+git remote add origin git@github.com:Flask-works.git
+git branch -M main
+git push -u origin main
+
+git push
